@@ -1,18 +1,13 @@
-# Buffer Overflow - Exploração de Vulnerabilidades
-
-Este repositório contém um estudo prático sobre Buffer Overflow, abordando os conceitos fundamentais e demonstrando a exploração de uma vulnerabilidade de estouro de buffer.
-
-## 🚨 Aviso Importante
-Este material é **estritamente educacional** e deve ser utilizado **apenas** em ambientes controlados para fins de aprendizado. Qualquer uso inadequado, fora dos propósitos acadêmicos, pode ser ilegal.
+Buffer Overflow - Exploração de Vulnerabilidades
 
 ---
 
-## 📌 Introdução
-O **Buffer Overflow** ocorre quando um programa escreve dados além dos limites de um buffer, sobrescrevendo áreas adjacentes da memória. Esse comportamento pode ser explorado para modificar o fluxo de execução do programa e, em alguns casos, obter controle total sobre o sistema.
+Introdução:
+ocorre quando um programa escreve dados além dos limites de um buffer, sobrescrevendo áreas adjacentes da memória. Esse comportamento pode ser explorado para modificar o fluxo de execução do programa e, em alguns casos, obter controle total sobre o sistema.
 
 ---
 
-## 🛠️ Configuração do Ambiente
+Configuração do Ambiente
 Antes de iniciar, certifique-se de estar em um ambiente Linux com as ferramentas necessárias instaladas:
 
 - **GCC** (Compilador de C)
@@ -27,7 +22,7 @@ sudo apt update && sudo apt install gcc gdb python3 binutils -y
 
 ---
 
-## 🔧 Passo a Passo da Exploração
+Passo a Passo da Exploração
 
 ### 1️⃣ Compilação do Programa
 Compile o código vulnerável desativando proteções de pilha para facilitar a exploração:
